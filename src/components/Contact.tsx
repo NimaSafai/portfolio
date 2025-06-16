@@ -70,7 +70,9 @@ const Contact: React.FC = () => {
             SEND
           </button>
           {state.succeeded && (
-            <div className="text-[#FFA500] mt-2">Message sent!</div>
+            <div className="text-[#FFA500] mt-2">
+              Message sent successfully!
+            </div>
           )}
         </form>
       </div>
