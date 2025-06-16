@@ -1,19 +1,14 @@
 import React, { useState } from "react";
+import { useForm } from "@formspree/react";
 
 const Contact: React.FC = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
+  const [state, handleSubmit] = useForm("xpwrrbnj");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 2000);
   };
 
   return (
@@ -74,7 +69,7 @@ const Contact: React.FC = () => {
           >
             SEND
           </button>
-          {submitted && (
+          {state.succeeded && (
             <div className="text-[#FFA500] mt-2">Message sent!</div>
           )}
         </form>
