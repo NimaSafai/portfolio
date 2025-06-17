@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       className="pt-[80px] sm:pt-[150px] md:pt-[200px] pb-[100px] sm:pb-[150px] md:pb-[250px] max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-4 sm:px-6"
       id="hero"
     >
-      {/* Left: Name and subtitle */}
+      {/* Name and subtitle */}
       <div className="flex-1 text-center md:ml-[-300px]">
         <h1 className="text-[100px] sm:text-[200px] md:text-[350px] font-extrabold clash-display text-[#FFA500] tracking-wider md:ml-8">
           NIMA
@@ -18,19 +18,14 @@ const Hero: React.FC = () => {
           WRITER | DIRECTOR | EDITOR
         </div>
       </div>
-      {/* Right: Profile image placeholder */}
+      {/* Profile image */}
       <div className="flex-1 flex-col justify-end mt-0 md:ml-20">
         <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[420px] sm:h-[700px] md:h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-0 md:mt-40">
-          <svg
-            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-          >
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
-          </svg>
+          <img
+            src="/images/_NZ74471.JPG"
+            alt="Nima Safai headshot"
+            className="w-full h-full object-cover"
+          />
         </div>
         <p className="text-[10px] mt-2 text-white/70">Photo: Ines Kjelbye</p>
       </div>

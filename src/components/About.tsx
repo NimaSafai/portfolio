@@ -4,9 +4,9 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="max-w-[1200px] sm:w-full md:mx-[950px] pt-[75px] sm:pt-[150px] md:pt-[200px] pb-[50px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6"
+      className="w-full max-w-[1200px] md:ml-[900px] pt-[75px] sm:pt-[150px] md:pt-[200px] pb-[50px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6 md:px-8 lg:px-12"
     >
-      {/* Left: Text */}
+      {/* Text */}
       <div className="flex-1 text-white mt-8 md:mt-24">
         <h2 className="text-6xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8 md:mb-8">
           About
@@ -42,21 +42,18 @@ const About: React.FC = () => {
           </p>
         </div>
       </div>
-      {/* Right: Image placeholder */}
+      {/* Image  */}
       <div className="flex-1 flex flex-col justify-center mt-2 md:mt-[120px]">
-        <div className="w-[300px] sm:w-[400px] md:w-[500px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
-          <svg
-            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-          >
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
-          </svg>
+        <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
+          <img
+            src="/images/NimaSafai_Frame.jpg"
+            alt="Nima Safai"
+            className="w-full h-full object-cover"
+          />
         </div>
-        <p className="text-[10px] text-white/70 mt-2">Photo: Emil Agrell</p>
+        <p className="text-[10px] text-white/70 mt-2">
+          Photo: Ann-Charlotte Rugfelt Ferm
+        </p>
       </div>
     </section>
   );

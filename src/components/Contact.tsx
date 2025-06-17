@@ -14,10 +14,10 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="max-w-[1500px] mx-auto md:ml-[950px] pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6"
+      className="w-full max-w-[1500px] md:ml-[950px] mx-auto pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-12 gap-20"
     >
       {/* Form */}
-      <div className="flex-1 mb-12 md:mb-20">
+      <div className="flex-1 w-full max-w-[700px] mb-12 md:mb-20">
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-12 sm:mb-24 md:mb-36">
           Contact
         </h2>
@@ -65,18 +65,13 @@ const Contact: React.FC = () => {
       {/* Image placeholder */}
       <div className="flex-1 flex-col justify-center mb-12 mt-8 md:mb-20 md:ml-[100px]">
         <div className="w-[300px] sm:w-[400px] md:w-[500px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
-          <svg
-            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-          >
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
-          </svg>
+          <img
+            src="/images/IMG_5155.jpg"
+            alt="Nima Safai on filming location"
+            className="w-full h-full object-cover"
+          />
         </div>
-        <p className="text-xs text-white/70 mt-2">Photo: Ines Kjelbye</p>
+        <p className="text-[10px] text-white/70 mt-2">Photo: Emil Agrell</p>
       </div>
     </section>
   );
