@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="max-w-[1500px] mx-auto md:ml-[800px] pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6"
+      className="max-w-[1500px] mx-auto md:ml-[950px] pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6"
     >
       {/* Form */}
       <div className="flex-1 mb-12 md:mb-20">
