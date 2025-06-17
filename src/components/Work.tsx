@@ -6,16 +6,13 @@ const Work: React.FC = () => {
       id="work"
       className="max-w-full mx-auto px-4 sm:px-6 py-12 flex flex-col items-center justify-center min-h-screen"
     >
-      {/* <h2 className="text-6xl mt-20 mb-16 font-bold text-[#FFA500] text-center">
-        Work
-      </h2> */}
       <div className="flex flex-col items-center justify-center w-full">
         {/* Vimeo Video */}
         <div className="flex-1 w-full max-w-[2000px] aspect-video mx-auto flex items-center justify-center">
           <iframe
             src="https://player.vimeo.com/video/950872992?h=a728ca6211"
             title="Vimeo video player"
-            className="w-full h-[300px] sm:h-[500px] md:h-[800px] lg:h-[1200px] rounded-lg shadow-lg border-0"
+            className="w-full h-[300px] sm:h-[500px] md:h-[800px]  rounded-lg shadow-lg border-0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           ></iframe>
