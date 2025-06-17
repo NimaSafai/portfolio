@@ -14,13 +14,13 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="max-w-6xl mx-auto px-6 py-12 mt-16 flex flex-col md:flex-row items-center gap-12"
+      className="max-w-[1500px] mx-auto pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6"
     >
       {/* Left: Image placeholder */}
-      <div className="flex-1 flex-col justify-center mb-20">
-        <div className="w-[400px] h-[600px] bg-gray-300 rounded-md flex items-center justify-center">
+      <div className="flex-1 flex-col justify-center mb-12 md:mb-20 md:ml-[100px]">
+        <div className="w-[300px] sm:w-[400px] md:w-[500px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <svg
-            className="w-24 h-24 text-gray-400"
+            className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -33,8 +33,10 @@ const Contact: React.FC = () => {
         <p className="text-xs text-white/70 mt-2">Photo: Ines Kjelbye</p>
       </div>
       {/* Right: Form */}
-      <div className="flex-1 w-full max-w-xl mb-20">
-        <h2 className="text-6xl font-bold text-[#FFA500] mb-20">Contact</h2>
+      <div className="flex-1 w-full max-w-[700px] mb-12 md:mb-20">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-12 sm:mb-24 md:mb-36">
+          Contact
+        </h2>
         <form className="" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -43,7 +45,7 @@ const Contact: React.FC = () => {
             value={form.name}
             onChange={handleChange}
             required
-            className="w-full mb-12 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+            className="w-full mb-8 sm:mb-12 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
           />
           <input
             type="email"
@@ -52,7 +54,7 @@ const Contact: React.FC = () => {
             value={form.email}
             onChange={handleChange}
             required
-            className="w-full mb-8 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+            className="w-full mb-6 sm:mb-8 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
           />
           <textarea
             name="message"
@@ -61,11 +63,11 @@ const Contact: React.FC = () => {
             onChange={handleChange}
             required
             rows={6}
-            className="w-full mt-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
+            className="w-full mt-4 sm:mt-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
           />
           <button
             type="submit"
-            className="bg-[#FFA500] text-white font-bold px-8 py-2 rounded-full mt-12 hover:bg-[#ffb733] transition-colors float-right"
+            className="bg-[#FFA500] text-white font-bold px-6 sm:px-8 py-2 rounded-full mt-12 sm:mt-16 md:mt-24 hover:bg-[#ffb733] transition-colors float-right"
           >
             SEND
           </button>
