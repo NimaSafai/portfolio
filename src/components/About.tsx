@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="max-w-[1200px] sm:max-w-[560px] mx-auto pt-[75px] sm:pt-[150px] md:pt-[200px] pb-[50px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6"
+      className="max-w-[1200px] sm:max-w-[560px] md:mx-[800px] pt-[75px] sm:pt-[150px] md:pt-[200px] pb-[50px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6"
     >
       {/* Left: Text */}
       <div className="flex-1 text-white mt-8 md:mt-24">
