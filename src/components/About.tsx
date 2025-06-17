@@ -4,11 +4,11 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="max-w-[1200px] mx-auto pt-[100px] sm:pt-[150px] md:pt-[200px] pb-[100px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6"
+      className="max-w-[1200px] sm:max-w-[560px] mx-auto pt-[75px] sm:pt-[150px] md:pt-[200px] pb-[50px] sm:pb-[200px] md:pb-[330px] flex flex-col md:flex-row items-center gap-8 md:gap-36 mb-20 px-4 sm:px-6"
     >
       {/* Left: Text */}
-      <div className="flex-1 text-white mt-12 md:mt-24">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-6 md:mb-8">
+      <div className="flex-1 text-white mt-8 md:mt-24">
+        <h2 className="text-6xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8 md:mb-8">
           About
         </h2>
         <div className="w-full md:w-[610px] text-lg sm:text-xl md:text-2xl">
@@ -43,7 +43,7 @@ const About: React.FC = () => {
         </div>
       </div>
       {/* Right: Image placeholder */}
-      <div className="flex-1 flex flex-col justify-center mt-12 md:mt-[120px]">
+      <div className="flex-1 flex flex-col justify-center mt-2 md:mt-[120px]">
         <div className="w-[300px] sm:w-[400px] md:w-[500px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <svg
             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
@@ -56,7 +56,7 @@ const About: React.FC = () => {
             <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
           </svg>
         </div>
-        <p className="text-xs text-white/70 mt-2">Photo: Emil Agrell</p>
+        <p className="text-[10px] text-white/70 mt-2">Photo: Emil Agrell</p>
       </div>
     </section>
   );

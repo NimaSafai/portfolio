@@ -36,7 +36,7 @@ const Work: React.FC = () => {
           >
             SCRIPT
           </a>
-          <p className="text-white text-base sm:text-lg md:text-xl mt-2 w-full max-w-[850px] px-4">
+          <p className="text-white text-sm sm:text-lg md:text-xl mt-2 w-full max-w-[800px] px-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
             to revolve around something completely different, as Navid asks his

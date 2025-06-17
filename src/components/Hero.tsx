@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       </div>
       {/* Right: Profile image placeholder */}
       <div className="flex-1 flex-col justify-end mt-0 md:ml-20">
-        <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[400px] sm:h-[700px] md:h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-0 md:mt-40">
+        <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[420px] sm:h-[700px] md:h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-0 md:mt-40">
           <svg
             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400"
             fill="none"
