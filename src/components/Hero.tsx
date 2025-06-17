@@ -3,15 +3,15 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <section
-      className="mt-16 mb-28 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6"
+      className="pt-[200px] pb-[250px] max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between"
       id="hero"
     >
       {/* Left: Name and subtitle */}
-      <div className="flex-1 text-center ml-[-100px]">
-        <h1 className="text-[275px] font-extrabold clash-display text-[#FFA500] tracking-wider ml-8">
+      <div className="flex-1 text-center ml-[-250px]">
+        <h1 className="text-[350px] font-extrabold clash-display text-[#FFA500] tracking-wider ml-8">
           NIMA
         </h1>
-        <h1 className="text-[275px] font-extrabold clash-display text-[#FFA500] mt-[-170px] mb-[-50px] tracking-tighter">
+        <h1 className="text-[350px] font-extrabold clash-display text-[#FFA500] mt-[-170px] mb-[-50px] tracking-tighter">
           SAFAI
         </h1>
         <div className="text-3xl font-medium text-white tracking-widest">
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       </div>
       {/* Right: Profile image placeholder */}
       <div className="flex-1 flex-col justify-center md:justify-end mt-10 ml-20 md:mt-0">
-        <div className="w-[400px] h-[600px] bg-gray-300 rounded-md flex items-center justify-center mt-40">
+        <div className="w-[600px] h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-40">
           <svg
             className="w-24 h-24 text-gray-400"
             fill="none"
