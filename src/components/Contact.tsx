@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
       <div className="flex-1 flex-col justify-center mb-12 mt-8 md:mb-20 md:ml-[100px]">
         <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <img
-            src="/images/IMG_5155.jpg"
+            src="/images/NimaSafai_OnSet.jpg"
             alt="Nima Safai on filming location"
             className="w-full h-full object-cover"
           />

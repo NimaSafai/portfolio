@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
       <div className="flex-1 flex-col justify-end mt-0 md:ml-20">
         <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[420px] sm:h-[700px] md:h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-0 md:mt-40">
           <img
-            src="/images/_NZ74351.JPG"
+            src="/images/NimaSafai_Headshot.JPG"
             alt="Nima Safai headshot"
             className="w-full h-full object-cover"
           />
