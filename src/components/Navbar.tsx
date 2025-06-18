@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-7xl mt-4 mb-[-8px] md:ml-[-250px] libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
+          className="text-white text-4xl sm:text-4xl md:text-6xl lg:text-7xl mt-4 mb-[-8px] md:ml-4 libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
           aria-label="Scroll to top"
         >
           NIMASAFAI
@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
         </button>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex space-x-8 mr-[-250px]">
+        <div className="hidden md:flex space-x-8 md:mr-4">
           <button
             onClick={() => handleNavClick("work")}
             className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-md tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"

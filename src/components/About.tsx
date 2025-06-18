@@ -40,7 +40,7 @@ const About: React.FC = () => {
         </div>
       </div>
       {/* Image  */}
-      <div className="flex-1 flex flex-col justify-center mt-12 mb-20 md:mt-[120px]">
+      <div className="flex-1 flex flex-col justify-center mt-12 mb-20">
         <div className="w-[350px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <img
             src="/images/NimaSafai_Frame.jpg"

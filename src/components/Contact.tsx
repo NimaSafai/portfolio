@@ -17,8 +17,8 @@ const Contact: React.FC = () => {
       id="contact"
     >
       {/* Form */}
-      <div className="flex-1">
-        <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8">
+      <div className="flex-1 md:max-w-[620px]">
+        <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8 md:my-16">
           Contact
         </h2>
         <form className="" onSubmit={handleSubmit}>
@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
           />
           <button
             type="submit"
-            className="bg-[#FFA500] text-white font-bold px-6 sm:px-8 py-2 rounded-full mt-12 sm:mt-16 md:mt-24 hover:bg-[#ffb733] transition-colors float-right"
+            className="bg-[#FFA500] text-white font-bold px-6 sm:px-8 py-2 rounded-full mt-12 sm:mt-16 md:mt-20 hover:bg-[#ffb733] transition-colors float-right"
           >
             SEND
           </button>
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
         </form>
       </div>
       {/* Image  */}
-      <div className="flex-1 flex-col justify-center">
+      <div className="flex-1 flex-col justify-center md:mt-8">
         <div className="w-[350px] sm:w-[400px] md:w-[600px] h-[520px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <img
             src="/images/NimaSafai_OnSet.jpg"
