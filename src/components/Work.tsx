@@ -3,7 +3,7 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="w-full px-4 sm:px-6 pb-12 flex flex-row items-center justify-center"
+      className="w-full px-4 sm:px-6 py-12 flex flex-row items-center justify-center"
       id="work"
     >
       <div className="flex flex-col items-center justify-center w-full">
@@ -33,7 +33,7 @@ const Work: React.FC = () => {
           >
             SCRIPT
           </a>
-          <p className="text-white text-[13px] sm:text-lg md:text-xl mt-4 mb-40 md:w-[900px] px-4">
+          <p className="text-white text-[15px] sm:text-lg md:text-xl mt-4 mb-10 md:mb-40 md:w-[900px] px-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
             to revolve around something completely different, as Navid asks his

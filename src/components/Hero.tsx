@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         <h1 className="text-[100px] sm:text-[200px] md:text-[350px] font-extrabold clash-display text-[#FFA500] mt-[-50px] sm:mt-[-100px] md:mt-[-170px] mb-[-20px] sm:mb-[-30px] md:mb-[-50px] tracking-tighter">
           SAFAI
         </h1>
-        <div className="text-2xl sm:text-3xl md:text-4xl pt-6 font-medium text-white tracking-widest">
+        <div className="text-xl sm:text-3xl md:text-4xl pt-6 font-medium text-white tracking-widest">
           WRITER | DIRECTOR | EDITOR
         </div>
       </div>
