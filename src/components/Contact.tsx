@@ -13,12 +13,12 @@ const Contact: React.FC = () => {
 
   return (
     <section
+      className="flex flex-col items-center mx-10 my-16 gap-10"
       id="contact"
-      className="w-full max-w-[1500px] md:ml-[875px] mx-auto pt-[100px] sm:pt-[200px] md:pt-[300px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-12 gap-12"
     >
       {/* Form */}
-      <div className="flex-1 w-full max-w-[700px] mb-12 md:mb-20">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-12 sm:mb-24 md:mb-36">
+      <div className="flex-1">
+        <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8">
           Contact
         </h2>
         <form className="" onSubmit={handleSubmit}>
@@ -63,15 +63,15 @@ const Contact: React.FC = () => {
         </form>
       </div>
       {/* Image  */}
-      <div className="flex-1 flex-col justify-center mb-12 mt-8 md:mb-20 md:ml-[100px]">
-        <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
+      <div className="flex-1 flex-col justify-center">
+        <div className="w-[350px] sm:w-[400px] md:w-[600px] h-[520px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <img
             src="/images/NimaSafai_OnSet.jpg"
             alt="Nima Safai on filming location"
             className="w-full h-full object-cover"
           />
         </div>
-        <p className="text-[10px] text-white/70 mt-2">Photo: Emil Agrell</p>
+        <p className="text-[8px] text-white/40 mt-2">Photo: Emil Agrell</p>
       </div>
     </section>
   );

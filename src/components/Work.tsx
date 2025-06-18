@@ -3,37 +3,36 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="w-full px-4 sm:px-6 py-12 flex flex-row items-center justify-center"
+      className="flex flex-col items-center justify-center mx-10 my-20"
       id="work"
     >
-      <div className="flex flex-col items-center justify-center w-full">
+      <div className="w-full">
         {/* Vimeo Video */}
-        <div className="flex-1 w-full max-w-[2000px] aspect-video mx-auto flex items-center justify-center">
+        <div className="flex-1 aspect-video">
           <iframe
-            src="https://player.vimeo.com/video/950872992?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/950872992"
             title="Vimeo video player"
-            className="w-full h-[300px] sm:h-[500px] md:h-[800px] rounded-lg shadow-lg border-0"
+            className="w-full h-full rounded-lg shadow-lg border-0"
             allowFullScreen
           ></iframe>
         </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
         {/* Info */}
-        <div className="flex-1 w-full max-w-xl mx-auto flex flex-col items-center justify-center text-center mt-8 sm:mt-12">
-          <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-2 text-[#FFA500]">
+        <div className="flex-1 flex flex-col items-center justify-center text-center mt-8">
+          <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-[#FFA500] mb-2">
             GHORME SABZI
           </h3>
-          <h2 className="text-xl sm:text-2xl font-regular my-2">
+          <h2 className="text-lg sm:text-2xl font-regular my-2">
             DRAMA | 2024 | 15 MIN
           </h2>
           <a
             href="/GhormeSabzi_Script.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#5496ED] text-lg sm:text-xl underline my-2 inline-block"
+            className="text-[#5496ED] text-base sm:text-xl underline inline-block"
           >
             SCRIPT
           </a>
-          <p className="text-white text-[15px] sm:text-lg md:text-xl mt-4 mb-10 md:mb-40 md:w-[900px] px-4">
+          <p className="text-white text-[12px] sm:text-lg md:text-xl mt-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
             to revolve around something completely different, as Navid asks his
