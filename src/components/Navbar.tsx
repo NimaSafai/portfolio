@@ -3,6 +3,14 @@ import React, { useState } from "react";
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Helper function for smooth scroll
+  const handleNavClick = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#1A1A1A] z-50 border-b border-white/40">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
@@ -13,7 +21,7 @@ const Navbar: React.FC = () => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-3 mb-[-8px] md:ml-[-200px] libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
+          className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-7xl mt-4 mb-[-8px] md:ml-[-250px] libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
           aria-label="Scroll to top"
         >
           NIMASAFAI
@@ -50,25 +58,28 @@ const Navbar: React.FC = () => {
         </button>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex space-x-8 mr-[-200px]">
-          <a
-            href="#work"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
+        <div className="hidden md:flex space-x-8 mr-[-250px]">
+          <button
+            onClick={() => handleNavClick("work")}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-md tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             WORK
-          </a>
-          <a
-            href="#about"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
+          </button>
+          <button
+            onClick={() => handleNavClick("about")}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-md tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             ABOUT
-          </a>
-          <a
-            href="#contact"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
+          </button>
+          <button
+            onClick={() => handleNavClick("contact")}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-md tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             CONTACT
-          </a>
+          </button>
         </div>
 
         {/* Mobile Nav Links */}
@@ -77,27 +88,36 @@ const Navbar: React.FC = () => {
             isMenuOpen ? "flex" : "hidden"
           } md:hidden absolute top-full left-0 w-full bg-[#1A1A1A] border-b border-white/40 flex-col items-center py-4 space-y-4`}
         >
-          <a
-            href="#work"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
-            onClick={() => setIsMenuOpen(false)}
+          <button
+            onClick={() => {
+              handleNavClick("work");
+              setIsMenuOpen(false);
+            }}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             WORK
-          </a>
-          <a
-            href="#about"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
-            onClick={() => setIsMenuOpen(false)}
+          </button>
+          <button
+            onClick={() => {
+              handleNavClick("about");
+              setIsMenuOpen(false);
+            }}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             ABOUT
-          </a>
-          <a
-            href="#contact"
-            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest"
-            onClick={() => setIsMenuOpen(false)}
+          </button>
+          <button
+            onClick={() => {
+              handleNavClick("contact");
+              setIsMenuOpen(false);
+            }}
+            className="text-white hover:text-[#FFA500] font-light transition-colors duration-200 text-sm tracking-widest bg-transparent border-none cursor-pointer p-0 m-0"
+            style={{ background: "none" }}
           >
             CONTACT
-          </a>
+          </button>
         </div>
       </div>
     </nav>

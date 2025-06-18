@@ -6,14 +6,14 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-[#1A1A1A] text-white min-h-screen font-sans">
+    <div>
       <Navbar />
       <Hero />
-      <div className="border-t border-white/40 my-8 w-4/5 mx-auto" />
+      <div className="border-t border-white/40 w-4/5 mx-auto" />
       <Work />
-      <div className="border-t border-white/40 my-8 w-4/5 mx-auto" />
+      <div className="border-t border-white/40 w-4/5 mx-auto" />
       <About />
-      <div className="border-t border-white/40 my-8 w-4/5 mx-auto" />
+      <div className="border-t border-white/40 w-4/5 mx-auto" />
       <Contact />
     </div>
   );

@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="w-full max-w-[1500px] md:ml-[900px] mx-auto pt-[100px] sm:pt-[200px] md:pt-[400px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-12 gap-12"
+      className="w-full max-w-[1500px] md:ml-[875px] mx-auto pt-[100px] sm:pt-[200px] md:pt-[300px] pb-[100px] sm:pb-[250px] md:pb-[450px] flex flex-col md:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-12 gap-12"
     >
       {/* Form */}
       <div className="flex-1 w-full max-w-[700px] mb-12 md:mb-20">
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
           )}
         </form>
       </div>
-      {/* Image placeholder */}
+      {/* Image  */}
       <div className="flex-1 flex-col justify-center mb-12 mt-8 md:mb-20 md:ml-[100px]">
         <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
           <img

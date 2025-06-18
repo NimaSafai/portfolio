@@ -6,6 +6,11 @@ html {
 
 body {
   font-family: "Space Grotesk", sans-serif;
+  background-color: #1a1a1a;
+  width: 100%;
+  min-height: 100vh;
+  color: #ffffff;
+  margin: 0;
 }
 
 .rock-salt-regular {

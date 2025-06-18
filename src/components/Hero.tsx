@@ -3,18 +3,18 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <section
-      className="pt-[80px] sm:pt-[150px] md:pt-[200px] pb-[100px] sm:pb-[150px] md:pb-[250px] max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-4 sm:px-6"
+      className="pt-[80px] sm:pt-[150px] md:pt-[200px] pb-[120px] sm:pb-[150px] md:pb-[250px] max-w-2xl md:ml-[450px] flex flex-col md:flex-row items-center justify-between gap-10 px-4 sm:px-6"
       id="hero"
     >
       {/* Name and subtitle */}
-      <div className="flex-1 text-center md:ml-[-300px]">
+      <div className="flex-1 text-center md:ml-[250px] lg:ml-[250px]">
         <h1 className="text-[100px] sm:text-[200px] md:text-[350px] font-extrabold clash-display text-[#FFA500] tracking-wider md:ml-8">
           NIMA
         </h1>
         <h1 className="text-[100px] sm:text-[200px] md:text-[350px] font-extrabold clash-display text-[#FFA500] mt-[-50px] sm:mt-[-100px] md:mt-[-170px] mb-[-20px] sm:mb-[-30px] md:mb-[-50px] tracking-tighter">
           SAFAI
         </h1>
-        <div className="text-xl sm:text-2xl md:text-3xl font-medium text-white tracking-widest">
+        <div className="text-2xl sm:text-3xl md:text-4xl pt-6 font-medium text-white tracking-widest">
           WRITER | DIRECTOR | EDITOR
         </div>
       </div>
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
       <div className="flex-1 flex-col justify-end mt-0 md:ml-20">
         <div className="w-[300px] sm:w-[400px] md:w-[600px] h-[420px] sm:h-[700px] md:h-[1000px] bg-gray-300 rounded-md flex items-center justify-center mt-0 md:mt-40">
           <img
-            src="/images/_NZ74471.JPG"
+            src="/images/_NZ74351.JPG"
             alt="Nima Safai headshot"
             className="w-full h-full object-cover"
           />
