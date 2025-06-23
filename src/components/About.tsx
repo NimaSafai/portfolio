@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row items-center w-full mx-4 xxxl:ml-12"
+      className="flex flex-col lg:flex-row items-center w-full mx-4 xxl:ml-12 xxxl:ml-16"
     >
       {/* Text */}
       <div className="flex-1 text-white mt-8 md:mt-12 mx-14">
