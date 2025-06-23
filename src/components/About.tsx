@@ -2,13 +2,16 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="flex flex-col items-center mx-10 mt-16">
+    <section
+      id="about"
+      className="flex flex-col lg:flex-row items-center w-full mx-4 xxxl:ml-12"
+    >
       {/* Text */}
-      <div className="flex-1 text-white mt-8 md:mt-24">
-        <h2 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8 md:mb-8">
+      <div className="flex-1 text-white mt-8 md:mt-12 mx-14">
+        <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-[#FFA500] mb-8">
           About
         </h2>
-        <div className="w-full md:w-[610px] text-lg sm:text-xl md:text-2xl">
+        <div className="w-full text-base sm:text-lg lg:text-base xl:text-xl xxl:text-2xl xxxl:text-3xl">
           <p className="font-extralight mb-4">
             Nima Safai is an award-winning director and writer from Gothenburg,
             Sweden. After nearly a decade in London, where he built a diverse
@@ -40,15 +43,16 @@ const About: React.FC = () => {
         </div>
       </div>
       {/* Image  */}
-      <div className="flex-1 flex flex-col justify-center mt-12 mb-20">
-        <div className="w-[350px] sm:w-[400px] md:w-[600px] h-[500px] sm:h-[700px] md:h-[900px] bg-gray-300 rounded-md flex items-center justify-center">
+      <div className="flex-1 flex flex-col items-center mt-16 lg:mt-52 mb-20 mr-8 xxxl:mr-12">
+        <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm xl:max-w-md xxl:max-w-lg xxxl:max-w-xl flex items-center justify-center">
           <img
             src="/images/NimaSafai_Frame.jpg"
             alt="Nima Safai"
             className="w-full h-full object-cover"
+            style={{ maxWidth: "100%", height: "auto" }}
           />
         </div>
-        <p className="text-[8px] text-white/40 mt-2">
+        <p className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm xl:max-w-md xxl:max-w-lg xxxl:max-w-xl text-[8px] text-white/40 mt-2 text-right">
           Photo: Ann-Charlotte Rugfelt Ferm
         </p>
       </div>
