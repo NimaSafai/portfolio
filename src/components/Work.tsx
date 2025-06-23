@@ -3,7 +3,7 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="flex flex-col max-w-7xl mx-auto px-8 sm:px-10 md:px-12 lg:my-36 xl:my-44 items-center justify-center"
+      className="flex flex-col max-w-7xl mx-auto px-8 sm:px-10 md:px-12 lg:my-36 xl:my-44 xxxl:my-64 items-center justify-center"
       id="work"
     >
       <div className="w-full">
