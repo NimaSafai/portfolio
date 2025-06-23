@@ -3,7 +3,7 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center mx-10 my-20"
+      className="flex flex-col max-w-7xl mx-auto px-8 sm:px-10 md:px-12 items-center justify-center my-20"
       id="work"
     >
       <div className="w-full">
@@ -18,21 +18,21 @@ const Work: React.FC = () => {
         </div>
         {/* Info */}
         <div className="flex-1 flex flex-col items-center justify-center text-center mt-8">
-          <h3 className="text-4xl sm:text-5xl md:text-6xl font-semibold text-[#FFA500] mb-2">
+          <h3 className="text-3xl sm:text-4xl md:text-4xl font-semibold text-[#FFA500] mb-2">
             GHORME SABZI
           </h3>
-          <h2 className="text-lg sm:text-2xl font-regular my-2">
+          <h2 className="text-base sm:text-lg md:text-xl font-regular my-2">
             DRAMA | 2024 | 15 MIN
           </h2>
           <a
             href="/GhormeSabzi_Script.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#5496ED] text-base sm:text-xl underline inline-block"
+            className="text-[#5496ED] text-base sm:text-lg underline inline-block"
           >
             SCRIPT
           </a>
-          <p className="text-white text-[12px] sm:text-lg md:text-lg mt-4">
+          <p className="text-white text-[14px] sm:text-base md:text-lg mt-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
             to revolve around something completely different, as Navid asks his

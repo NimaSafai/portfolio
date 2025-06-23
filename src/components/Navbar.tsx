@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#1A1A1A] z-50 border-b border-white/40">
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
+      <div className="max-w-8xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-10 xl:px-18 py-3">
         {/* Logo */}
         <a
           href="/"
@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="text-white text-4xl sm:text-4xl md:text-6xl lg:text-7xl mt-4 mb-[-8px] md:ml-4 libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
+          className="text-white text-4xl sm:text-4xl md:text-6xl mt-2 md:mt-4 mb-[-8px] md:ml-4 libre-barcode-128-regular tracking-wide select-none cursor-pointer focus:outline-none"
           aria-label="Scroll to top"
         >
           NIMASAFAI

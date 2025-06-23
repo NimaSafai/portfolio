@@ -11,6 +11,8 @@ module.exports = {
         md: "768px", // Medium devices (tablets)
         lg: "1024px", // Large devices (desktops)
         xl: "1280px", // Extra large devices
+        xxl: "1536px", // Extra extra large devices
+        xxxl: "1920px", // Extra extra extra large devices
       },
     },
   },

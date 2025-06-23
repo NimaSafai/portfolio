@@ -9,7 +9,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center mx-auto">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full max-w-[2000px]">
           <Hero />
           <div className="border-t border-white/40 w-4/5 mx-auto" />
           <Work />
