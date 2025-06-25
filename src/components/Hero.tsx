@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="w-full my-44" id="hero">
+    <section className="w-full my-44 xxl:my-64 xxxl:my-80" id="hero">
       <div className="flex flex-col lg:flex-row lg:gap-16 w-full max-w-8xl mx-auto items-center text-center">
         {/* Name and subtitle */}
         <div className="w-full text-center items-center lg:items-start lg:pl-16 xxxl:pl-72">
@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
               style={{ maxWidth: "100%", height: "auto" }}
             />
           </div>
-          <p className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md text-[8px] text-white/40 mt-2 text-right">
+          <p className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg xxl:max-w-xl xxxl:max-w-xl text-[8px] text-white/40 mt-2 text-right">
             Photo: Ines Kjelbye
           </p>
         </div>

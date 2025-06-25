@@ -2,7 +2,7 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="w-full lg:mb-20 xxl:mb-32 my-20">
+    <section id="about" className="w-full lg:mb-36 xl:mb-44 xxl:mb-52 my-20">
       <div className="flex flex-col lg:flex-row lg:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center">
         {/* Text */}
         <div className="text-white mt-8 md:mt-12 px-10 lg:pl-16 w-full lg:text-left">
@@ -36,12 +36,12 @@ const About: React.FC = () => {
               Whether crafting tight narratives or embracing a more intuitive,
               freeform process, Nima's work stands out for its naturalistic
               tone, eye for detail, and grounded execution of simple yet
-              compelling ideas.
+              compelling ideas and concepts.
             </p>
           </div>
         </div>
         {/* Image  */}
-        <div className="aspect-[3/4] mt-16 lg:mt-52 xl:mt-36 xxl:mt-24 mb-20 w-full lg:pr-16 max-w-md lg:max-w-xl flex flex-col items-center lg:items-end">
+        <div className="aspect-[3/4] mt-16 lg:mt-32 xl:mt-16 xxl:mt-2 w-full lg:pr-16 max-w-md lg:max-w-xl flex flex-col items-center lg:items-end">
           <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg flex items-center justify-center">
             <img
               src="/images/NimaSafai_Frame.jpg"
