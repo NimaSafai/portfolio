@@ -2,7 +2,10 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="w-full lg:mb-36 xl:mb-44 xxl:mb-52 mt-32">
+    <section
+      id="about"
+      className="w-full lg:mb-36 xl:mb-44 xxl:mb-52 xxxl:mb-64 mt-32"
+    >
       <div className="flex flex-col lg:flex-row lg:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center">
         {/* Text */}
         <div className="text-white mt-8 md:mt-12 px-10 lg:pl-16 w-full lg:text-left">

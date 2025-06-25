@@ -11,11 +11,11 @@ function App() {
       <main className="flex-1 flex flex-col items-center justify-center">
         <div className="w-full max-w-[2000px]">
           <Hero />
-          <div className="border-t border-white/40 w-4/5 mx-auto" />
+          <div className="border-t border-white/0 w-4/5 mx-auto" />
           <Work />
-          <div className="border-t border-white/40 w-4/5 mx-auto" />
+          <div className="border-t border-white/0 w-4/5 mx-auto" />
           <About />
-          <div className="border-t border-white/40 w-4/5 mx-auto" />
+          <div className="border-t border-white/0 w-4/5 mx-auto" />
           <Contact />
         </div>
       </main>

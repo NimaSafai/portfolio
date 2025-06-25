@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="w-full my-44 xxl:my-64 xxxl:my-80" id="hero">
+    <section className="w-full my-44 xxl:my-64 xxxl:my-96" id="hero">
       <div className="flex flex-col lg:flex-row lg:gap-16 w-full max-w-8xl mx-auto items-center text-center">
         {/* Name and subtitle */}
         <div className="w-full text-center items-center lg:items-start lg:pl-16 xxxl:pl-72">

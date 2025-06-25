@@ -3,10 +3,10 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="flex flex-col max-w-4xl lg:max-w-7xl mx-auto px-8 sm:px-10 md:px-12 my-28 lg:my-40 xl:my-52 xxl:my-56 xxxl:my-64 items-center justify-center"
+      className="flex flex-col max-w-4xl lg:max-w-7xl mx-auto px-8 sm:px-10 md:px-12 my-28 lg:my-40 xl:my-52 xxl:my-56 xxxl:my-96 items-center justify-center"
       id="work"
     >
-      <div className="w-full">
+      <div className="w-full mt-24">
         {/* Vimeo Video */}
         <div className="flex-1 aspect-video">
           <iframe

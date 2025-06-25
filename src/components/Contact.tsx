@@ -12,10 +12,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section
-      className="w-full mt-20 xxl:mt-32 xxxl:mt-44 mb-32 xxl:mb-52 xxxl:mb-64"
-      id="contact"
-    >
+    <section className="w-full mt-52 mb-64 l:mb-96 xxxl:mb-96" id="contact">
       <div className="flex flex-col lg:flex-row lg:gap-2 xxl:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center">
         {/* Form */}
         <div className="w-full px-16 pb-8">
