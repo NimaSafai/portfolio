@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="w-full my-44 xxl:my-64 xxxl:my-96" id="hero">
+    <section className="w-full my-44 xxl:my-32 xxxl:my-96" id="hero">
       <div className="flex flex-col lg:flex-row lg:gap-16 w-full max-w-8xl mx-auto items-center text-center">
         {/* Name and subtitle */}
-        <div className="w-full text-center items-center lg:items-start lg:pl-16 xxxl:pl-72">
+        <div className="w-full text-center items-center lg:items-start lg:pl-16 xxl:pl-40 xxxl:pl-72">
           <h1 className="text-center text-[100px] sm:text-[150px] md:text-[175px] xxl:text-[200px] xxxl:text-[225px] ml-3 sm:ml-5 font-extrabold clash-display text-[#FFA500] tracking-wider">
             NIMA
           </h1>
