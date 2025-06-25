@@ -12,11 +12,11 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="w-full mt-52 mb-64 l:mb-96 xxxl:mb-96" id="contact">
-      <div className="flex flex-col lg:flex-row lg:gap-2 xxl:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center">
+    <section className="w-full" id="contact">
+      <div className="flex flex-col lg:flex-row lg:gap-2 xxl:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center xl:mb-24 xxl:mb-32 xxxl:my-52 xxxl:mb-64">
         {/* Form */}
         <div className="w-full px-16 pb-8">
-          <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#FFA500] mb-8 md:my-16">
+          <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-[#FFA500] my-8">
             Contact
           </h2>
           <form className="" onSubmit={handleSubmit}>
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
               value={form.name}
               onChange={handleChange}
               required
-              className="w-full mb-8 sm:mb-12 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+              className="w-full sm:mb-12 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
             />
             <input
               type="email"
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
               value={form.email}
               onChange={handleChange}
               required
-              className="w-full mb-6 sm:mb-8 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+              className="w-full sm:mb-8 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
             />
             <textarea
               name="message"
@@ -45,11 +45,11 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               required
               rows={6}
-              className="w-full mt-4 sm:mt-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
+              className="w-full sm:mt-6 lg:mt-2 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
             />
             <button
               type="submit"
-              className="bg-[#FFA500] text-white font-bold px-6 sm:px-8 py-2 rounded-full mt-12 hover:bg-[#ffb733] transition-colors float-right"
+              className="bg-[#FFA500] text-white font-bold px-6 sm:px-8 py-2 rounded-full mt-6 hover:bg-[#ffb733] transition-colors float-right"
             >
               SEND
             </button>
@@ -61,8 +61,8 @@ const Contact: React.FC = () => {
           </form>
         </div>
         {/* Image  */}
-        <div className="mt-8 lg:mt-20 w-full lg:pr-16 flex flex-col items-center lg:items-end">
-          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md flex items-center justify-center">
+        <div className="w-full lg:pr-16 flex flex-col items-center lg:items-end">
+          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xs xl:max-w-sm xxl:max-w-sm xxxl:max-w-md flex items-center justify-center">
             <img
               src="/images/NimaSafai_OnSet.jpg"
               alt="Nima Safai on filming location"

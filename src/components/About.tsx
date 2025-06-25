@@ -4,15 +4,15 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="w-full lg:mb-36 xl:mb-44 xxl:mb-52 xxxl:mb-64 mt-32"
+      className="w-full lg:mb-36 xl:mb-28 xxl:mb-44 mt-32 xxl:mt-52 xxxl:mt-80"
     >
       <div className="flex flex-col lg:flex-row lg:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center">
         {/* Text */}
-        <div className="text-white mt-8 md:mt-12 px-10 lg:pl-16 w-full lg:text-left">
-          <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-[#FFA500] mb-8">
+        <div className="text-white mt-8 px-10 lg:pl-16 xl:pl-6 w-full lg:text-left">
+          <h2 className="text-4xl xl:text-5xl font-bold text-[#FFA500] mb-4">
             About
           </h2>
-          <div className="w-full text-base sm:text-base xl:text-xl xxl:text-2xl">
+          <div className="w-full text-base sm:text-base lg:text-sm xl:text-base xxl:text-lg xxxl:text-xl">
             <p className="font-extralight mb-4">
               Nima Safai is an award-winning director and writer from
               Gothenburg, Sweden. After nearly a decade in London, where he
@@ -44,8 +44,8 @@ const About: React.FC = () => {
           </div>
         </div>
         {/* Image  */}
-        <div className="aspect-[3/4] mt-16 lg:mt-32 xl:mt-16 xxl:mt-2 w-full lg:pr-16 max-w-md lg:max-w-xl flex flex-col items-center lg:items-end">
-          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg flex items-center justify-center">
+        <div className="aspect-[3/4] mt-16 xl:mt-16 xxl:mt-16 lg:mr-16 max-w-md lg:max-w-xl flex flex-col items-center">
+          <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg xxxl:max-w-2xl flex items-center justify-center">
             <img
               src="/images/NimaSafai_Frame.jpg"
               alt="Nima Safai holding award at Frame Filmfestival"

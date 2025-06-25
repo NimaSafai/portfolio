@@ -3,10 +3,10 @@ import React from "react";
 const Work: React.FC = () => {
   return (
     <section
-      className="flex flex-col max-w-4xl lg:max-w-7xl mx-auto px-8 sm:px-10 md:px-12 my-28 lg:my-40 xl:my-52 xxl:my-8 xxxl:my-96 items-center justify-center"
+      className="flex flex-col max-w-4xl lg:max-w-4xl xl:max-w-5xl xxl:max-w-6xl xxxl:max-w-7xl mx-auto px-8 sm:px-10 md:px-12 my-28 lg:my-26 xl:my-40 xxl:my-32 xxxl:my-44 items-center justify-center"
       id="work"
     >
-      <div className="w-full mt-24">
+      <div className="w-full">
         {/* Vimeo Video */}
         <div className="flex-1 aspect-video">
           <iframe
@@ -17,7 +17,7 @@ const Work: React.FC = () => {
           ></iframe>
         </div>
         {/* Info */}
-        <div className="flex-1 flex flex-col items-center justify-center text-center mt-8">
+        <div className="flex-1 flex flex-col items-center justify-center text-center mt-12">
           <h3 className="text-3xl sm:text-4xl md:text-4xl font-semibold text-[#FFA500] mb-2">
             GHORME SABZI
           </h3>
@@ -32,7 +32,7 @@ const Work: React.FC = () => {
           >
             SCRIPT
           </a>
-          <p className="max-w-[1100px] lg:mx-10 text-white text-[14px] sm:text-base md:text-lg mt-4">
+          <p className="max-w-[1100px] lg:mx-10 text-white text-[14px] sm:text-base xl:text-lg mt-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
             to revolve around something completely different, as Navid asks his
