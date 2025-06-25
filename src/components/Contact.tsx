@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
           </form>
         </div>
         {/* Image  */}
-        <div className="mt-8 lg:mt-20 w-full lg:pr-16 max-w-md flex flex-col items-center lg:items-end">
+        <div className="mt-8 lg:mt-20 w-full lg:pr-16 flex flex-col items-center lg:items-end">
           <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md flex items-center justify-center">
             <img
               src="/images/NimaSafai_OnSet.jpg"

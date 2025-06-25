@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-[#FFA500] mb-8">
             About
           </h2>
-          <div className="w-full text-base sm:text-lg xl:text-xl xxl:text-2xl">
+          <div className="w-full text-base sm:text-base xl:text-xl xxl:text-2xl">
             <p className="font-extralight mb-4">
               Nima Safai is an award-winning director and writer from
               Gothenburg, Sweden. After nearly a decade in London, where he
@@ -41,8 +41,8 @@ const About: React.FC = () => {
           </div>
         </div>
         {/* Image  */}
-        <div className="mt-16 lg:mt-52 mb-20 w-full lg:pr-16 max-w-md flex flex-col items-center lg:items-end">
-          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md flex items-center justify-center">
+        <div className="aspect-[3/4] mt-16 lg:mt-52 xl:mt-36 xxl:mt-24 mb-20 w-full lg:pr-16 max-w-md lg:max-w-xl flex flex-col items-center lg:items-end">
+          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg flex items-center justify-center">
             <img
               src="/images/NimaSafai_Frame.jpg"
               alt="Nima Safai holding award at Frame Filmfestival"
