@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Profile image */}
-        <div className="w-full mt-8 lg:mt-16 lg:pr-12 xxxl:pr-0 flex flex-col items-end">
+        <div className="w-full mt-8 lg:mt-16 lg:pr-12 xxxl:pr-0 flex flex-col items-center">
           <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-md xxl:max-w-xl xxxl:max-w-2xl aspect-[3/4] flex items-center justify-center">
             <img
               src="/images/NimaSafai_Headshot.JPG"

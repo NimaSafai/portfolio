@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
 
   return (
     <section className="w-full" id="contact">
-      <div className="flex flex-col lg:flex-row lg:gap-2 xxl:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center xl:mb-24 xxl:mb-32 xxxl:my-52 xxxl:mb-64">
+      <div className="flex flex-col lg:flex-row lg:gap-2 xxl:gap-12 w-full max-w-6xl xxl:max-w-7xl mx-auto items-center mb-20 xl:mb-24 xxl:mb-32 xxxl:my-52 xxxl:mb-64">
         {/* Form */}
         <div className="w-full px-16 pb-8">
           <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-[#FFA500] my-8">
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
               value={form.name}
               onChange={handleChange}
               required
-              className="w-full sm:mb-12 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+              className="w-full mb-6 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
             />
             <input
               type="email"
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
               value={form.email}
               onChange={handleChange}
               required
-              className="w-full sm:mb-8 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
+              className="w-full mb-8 lg:mb-6 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors"
             />
             <textarea
               name="message"
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               required
               rows={6}
-              className="w-full sm:mt-6 lg:mt-2 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
+              className="w-full mt-2 lg:mt-2 px-4 py-2 bg-transparent border-b border-l border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-[#FFA500] transition-colors resize-none"
             />
             <button
               type="submit"
