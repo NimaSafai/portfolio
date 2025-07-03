@@ -3,7 +3,7 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <section
-      className="w-full my-16 lg:my-18 xl:my-12 xxl:my-16 xxxl:my-52 xxxl:mb-64"
+      className="w-full my-16 lg:my-18 xxl:my-16 xxxl:my-52 xxxl:mb-64"
       id="hero"
     >
       <div className="flex flex-col lg:flex-row lg:gap-16 w-full max-w-6xl xxl:max-w-7xl xxxl:max-w-8xl mx-auto items-center text-center">
