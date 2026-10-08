@@ -24,14 +24,6 @@ const Work: React.FC = () => {
           <h2 className="text-base sm:text-lg md:text-xl font-regular my-2">
             DRAMA | 2024 | 15 MIN
           </h2>
-          <a
-            href="/GhormeSabzi_Script.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#5496ED] text-base sm:text-lg underline inline-block"
-          >
-            SCRIPT
-          </a>
           <p className="max-w-[1100px] lg:mx-10 text-white text-[13px] sm:text-base xl:text-lg mt-4">
             As is tradition, brothers Arian and Navid meet up one late night to
             cook a special meal together, but this time their meeting is going
